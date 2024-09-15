@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Practise</title>
+</head>
+<body style="padding-bottom: 1000px;">
+    <div style="
+        display: flex;
+        flex-direction: row;
+        ">
+        <div style="background-color: lightblue;
+        ">div 1 text</div>
+        <div style="background-color: lightpink;
+        ">div 2 <p>text</p></div>
+    </div>
+
+
+    <div style="
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        ">
+        <div style="
+        background-color: lightblue;
+        width: 100px;
+        ">100px</div>
+        <div style="background-color: lightpink;
+        flex: 1;
+        ">flex 1</div>
+    </div>
+
+
+    <div style="
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        ">
+        <div style="
+        background-color: lightblue;
+        width: 100px;
+        ">100px</div>
+        <div style="background-color: lightpink;
+        flex: 1;
+        ">flex 1</div>
+        <div style="
+        background-color: lightblue;
+        flex: 2;
+        ">flex 2</div>
+    </div>
+
+
+    
+
+
+    <div style="
+        margin-top: 30px;
+        height: 70px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: gray;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        ">
+        <div style="
+        background-color: lightblue;
+        width: 100px;
+        ">100px</div>
+        <div style="background-color: lightpink;
+        width: 100px;
+        ">100px</div>
+        <div style="
+        background-color: lightblue;
+        width: 100px;
+        ">100px</div>
+    </div>
+
+
+
+    <div style="
+        margin-top: 30px;
+        height: 70px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: gray;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        ">
+        <div style="
+        background-color: lightblue;
+        width: 100px;
+        ">100px</div>
+        <div style="background-color: lightpink;
+        width: 100px;
+        ">100px</div>
+        <div style="
+        background-color: lightblue;
+        width: 100px;
+        ">100px</div>
+    </div>
+
+
+    <div style="
+        margin-top: 30px;
+        height: 70px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: gray;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        ">
+        <div style="
+        background-color: lightblue;
+        width: 100px;
+        ">100px</div>
+        <div style="background-color: lightpink;
+        width: 100px;
+        ">100px</div>
+        <div style="
+        background-color: lightblue;
+        width: 100px;
+        ">100px</div>
+    </div>
+</body>
+</html> 
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="
+        display: flex;
+        flex-direction: row;">
+        <div style="background-color: lightblue; width: 200px;">200px</div>
+        <div style="background-color: lightpink; width: 75px;">75px</div>
+    </div>
+
+
+    <div style="
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;">
+        <div style="background-color: lightblue; width: 50px;">item1</div>
+        <div style="background-color: lightpink; flex: 1;">item2</div>
+        <div style="background-color: lightblue; width: 50px;">item3</div>
+    </div>
+
+
+    <div style="
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    justify-content: space-between;">
+        <div style="background-color: lightpink; width: 40px;">item1</div>
+        <div style="background-color: lightpink; width: 40px;">item2</div>
+        <div style="background-color: lightpink; width: 40px;">item3</div>
+        <div style="background-color: lightpink; width: 40px;">item4</div>
+    </div>
+
+
+    <div style="
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;">
+        <div style="background-color: lightpink; width: 40px;">item1</div>
+        <div style="background-color: lightpink; width: 40px;">item2</div>
+    </div>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div sttyle="
+    display: flex;
+    flex-direction: row">
+        <div>Home</div>
+        <div>Notifications</div>
+        <div>Messages</div>
+    </div>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            box-shadow: 1px 1px 10px rgba(0,0,0,0.3);
+            height: 150px;
+            width: 300px;
+            border-width: 1px;
+            border-style: solid;
+            border-radius: 6px;
+        }
+
+        .flexbox {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding-right: 15px;
+            padding-left: 10px;
+            padding-top: 25px;
+        }
+
+        .notifications {
+            background-color: rgb(49, 109, 245);
+            color: white;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            padding-left: 10px;
+            padding-right: 10px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="flexbox">
+          <div>Home</div>
+          <div class="notifications">14</div>
+        </div>
+        <div class="flexbox">
+          <div>Notifications</div>
+          <div class="notifications">3</div>
+        </div>
+        <div class="flexbox">
+          <div>Messages</div>
+          <div class="notifications">5</div>
+        </div>
+      </div>
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+
+    .flexbox {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 20px;
+      align-items: center;
+    }
+
+    .mrbeast {
+      width: 50px;
+      border-radius: 25px;
+    }
+
+    
+    .names {
+      width: 200px;
+    }
+
+  </style>
+</head>
+<body>
+  
+    <div class="flexbox">
+      <div>
+        <img class="mrbeast" src="channelpictures/mrbeast.jpeg">
+      </div>
+      <div class="names">
+        <p>oliver</p>
+        <p>oliver</p>
+        <p>oliver</p>
+      </div>
+      
+        <button class="follow">Follow</button>
+      
+    </div>
+  
+</body>
+</html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .flexbox {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      background-color: rgb(114, 47, 131);
+      height: 40px;
+      padding: 12px;
+    }
+
+    .name {
+      color: white;
+      font-weight: bold;
+      align-content: center;
+      font-family: arial;
+    }
+
+    .click {
+      align-content: center;
+      
+    }
+
+    .search-bar {
+      width: 900px;
+      border-radius: 150px;
+      border: none;
+      outline: none;
+      padding: 9px;
+      padding-left: 25px;
+      
+    }
+
+    .button {
+      border-color: white;
+      color: white;
+      background-color: transparent;
+      border-width: 1px;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  
+    <div class="flexbox">
+      <div class="name">Home</div>
+      <div class="click">
+        <input class="search-bar" type="text" placeholder="Search">
+      </div>
+      <button class="button">Download</button>
+    </div>
+  
+</body>
+</html>
